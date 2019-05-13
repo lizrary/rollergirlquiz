@@ -1,0 +1,136 @@
+
+
+body {
+ margin: auto;
+  width: 50%;
+  padding: 10px;
+background-image: url(
+https://www.texasrollergirls.org/static/homepage-973fbfd662baa7cba17309616100af7c.png);
+background-repeat: no-repeat;
+background-position: center; 
+background-size: 98%;
+padding-top: 10%;
+
+}
+
+main {
+   margin: auto;
+  width: 50%;
+  padding: 10px;
+background-image: url(
+https://www.texasrollergirls.org/static/homepage-973fbfd662baa7cba17309616100af7c.png);
+background-repeat: no-repeat;
+background-position: center; 
+background-size: 98%;
+padding-top: 10%;
+}
+
+form {
+   background-image: url(
+https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
+background-position: center;
+ font-family: verdana;
+  border: none;
+  color: white;
+ padding: 15px 32px;
+  text-align: left;
+  font-size: 16px;
+  border-radius: 6px; 
+  height:20%;
+  border: white 30px;
+  height: 90%;
+
+}
+
+h1 {
+  color: white;
+  font-family: verdana;
+  font-size: 200%;
+  background-image: url(
+https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
+  padding: 10px;
+  display: flex;
+  padding: 15px 32px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 50px;
+  border-radius: 6px; 
+}
+
+h2, h3 {
+  color: white;
+  font-family: verdana;
+  background-image: url(
+https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
+padding: 10px;
+  display: block;
+  padding: 15px 32px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 25px;
+  border-radius: 6px; 
+}
+
+button {
+  font-family: verdana;
+  background-image: url(
+https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px; 
+  display: block;
+  width: 100%;
+  cursor:pointer;
+}
+
+.goBack {
+  font-family: verdana;
+  background-image: url(
+https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
+  border: purple 2px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px; 
+  display: inline-block;
+  width: 50%;
+  cursor:pointer;
+  box-sizing: border-box;
+  margin-top: 5%;
+  
+
+}
+
+.submitAnswer {
+  font-family: verdana;
+  background-image: url(
+https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px; 
+  display: inline-block;
+  float: right;
+  width: 50%;
+  cursor:pointer;
+  box-sizing: border-box;
+ margin-top: 5%;
+ height: 200%;
+}
+
+a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
