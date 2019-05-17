@@ -1,136 +1,163 @@
 
+  
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Black Ops One', cursive;
+}
+/* copied from a stackoverflow recommendation - solution for whitespace at bottom of mobile page */
+
+* {
+    font-family: 'Black Ops One', cursive;
+    font-size: 16px;
+    color: white;
+  }
 
 body {
- margin: auto;
-  width: 50%;
-  padding: 10px;
-background-image: url(
-https://www.texasrollergirls.org/static/homepage-973fbfd662baa7cba17309616100af7c.png);
-background-repeat: no-repeat;
-background-position: center; 
-background-size: 98%;
-padding-top: 10%;
+    background: url(
+https://www.texasrollergirls.org/static/homepage-973fbfd662baa7cba17309616100af7c.png)no-repeat center;
+background-size: cover;
+padding: 70px 0;
+text-align: center;
 
+  
 }
 
-main {
-   margin: auto;
-  width: 50%;
-  padding: 10px;
-background-image: url(
-https://www.texasrollergirls.org/static/homepage-973fbfd662baa7cba17309616100af7c.png);
-background-repeat: no-repeat;
-background-position: center; 
-background-size: 98%;
-padding-top: 10%;
-}
-
-form {
-   background-image: url(
-https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
-background-position: center;
- font-family: verdana;
-  border: none;
-  color: white;
- padding: 15px 32px;
-  text-align: left;
-  font-size: 16px;
-  border-radius: 6px; 
-  height:20%;
-  border: white 30px;
-  height: 90%;
-
-}
-
-h1 {
-  color: white;
-  font-family: verdana;
-  font-size: 200%;
-  background-image: url(
-https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
-  padding: 10px;
-  display: flex;
-  padding: 15px 32px;
-  text-align: center;
-  justify-content: center;
-  text-decoration: none;
-  display: flex;
-  font-size: 50px;
-  border-radius: 6px; 
-}
-
-h2, h3 {
-  color: white;
-  font-family: verdana;
-  background-image: url(
-https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
-padding: 10px;
-  display: block;
-  padding: 15px 32px;
-  text-align: center;
-  justify-content: center;
-  text-decoration: none;
-  display: flex;
-  font-size: 25px;
-  border-radius: 6px; 
-}
 
 button {
-  font-family: verdana;
-  background-image: url(
+      cursor: pointer;
+      border: transparent;
+      width: 50%;
+    border-radius: 25px;
+    font-size: 1.5em;
+     
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    background-image: url(
 https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 6px; 
-  display: block;
-  width: 100%;
-  cursor:pointer;
+ margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
-.goBack {
-  font-family: verdana;
-  background-image: url(
-https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
-  border: purple 2px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 6px; 
-  display: inline-block;
-  width: 50%;
-  cursor:pointer;
-  box-sizing: border-box;
-  margin-top: 5%;
+ button:hover {
+   opacity: 1}
+
+  .start-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Black Ops One', cursive;
+
+  }
   
-
+.derbyCore {
+    font-weight: bold;
+    font-family: ;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: 'Black Ops One', cursive;
+  font-weight: bold;
 }
-
-.submitAnswer {
-  font-family: verdana;
-  background-image: url(
+  
+.start-quiz {
+    border: 1px transparent;
+    font-family: 'Black Ops One', cursive;
+    border-radius: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: url(
 https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 6px; 
-  display: inline-block;
-  float: right;
-  width: 50%;
-  cursor:pointer;
-  box-sizing: border-box;
- margin-top: 5%;
- height: 200%;
+  }
+  
+h2, p, span, header {
+  font-size: 30px;
+}
+.start-button, .submitQuestion {
+    font-family: 'Black Ops One', cursive;
+    text-transform: uppercase;
+    align-content: center;
+    padding: 20px;
+    width: 60%;
+    
+  }
+
+
+
+.questionAnswerForm {
+      display: none;
+      width: 50%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+       background-image: url(
+      https://assets.saatchiart.com/saatchi/334037/art/3770012/2839896-FJZWAVYU-6.jpg);
+      border-radius: 25px;
+      border: 1px transparent;
+      font-family: 'Black Ops One', cursive;
+      text-transform: uppercase;
+      font-size: 20px;
+
+  }
+
+
+
+
+fieldset {
+    border: none;
 }
 
-a {
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: none;
+
+.radioChoices {
+    width: auto;
+    padding-bottom: 30px;
+    text-align: left;
+    font-weight: bold;
 }
+
+
+.question-form input[type="radio"],
+.question-form input[type="radio"]+label {
+    display: inline-block;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+label {
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+}
+
+label:hover{
+    border: 1px dotted rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+}
+
+
+
