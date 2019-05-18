@@ -38,7 +38,7 @@ button {
       width: 50%;
     border-radius: 25px;
     font-size: 1.5em;
-     
+     display: block;
     text-align: center;
     font-family: 'Black Ops One', cursive;
     background-image: url(
